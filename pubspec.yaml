@@ -1,5 +1,5 @@
 name: barcode_scanner
-description: "A new Flutter project."
+description: "A barcode scanner for parents to see if the baby food they are purchasing will help their babies grow healthily."
 publish_to: 'none'
 version: 0.1.0
 
@@ -11,6 +11,9 @@ dependencies:
     sdk: flutter
   english_words: ^4.0.0
   provider: ^6.1.5
+  flutter_barcode_scanner: ^2.0.0
+  http: ^1.2.1
+  json_annotation: ^4.9.0
 
 dev_dependencies:
   flutter_test:
