@@ -9,7 +9,7 @@ android {
     namespace = "com.example.barcode_scanner"
     testNamespace = "com.example.barcode_scanner.test"
     compileSdk = flutter.compileSdkVersion
-    ndkVersion = flutter.ndkVersion
+    ndkVersion = "27.0.12077973"
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
